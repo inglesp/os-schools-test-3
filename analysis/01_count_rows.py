@@ -13,6 +13,8 @@ for path in data_dir.glob("*.csv"):
     num_lines = len(df)
     counts.append({"filename": path.name, "num_lines": num_lines})
 
+print(1 / 0)
+
 df = pd.DataFrame(counts)
 df.to_csv(output_file, index=False)
 
