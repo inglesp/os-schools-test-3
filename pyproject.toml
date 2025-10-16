@@ -1,7 +1,7 @@
 [project]
-name = "add-your-name-here"
+name = "os-schools-test-3"
 version = "0.1.0"
-description = "Add your description here"
+description = "TEST!"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
